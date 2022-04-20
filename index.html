@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Giphy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css.css">
+
+</head>
+
+<body>
+    <div class="container-fluid" id="navContainer">
+        <nav class="navbar navbar-dark  text-light d-flex " id="nav1">
+            <a class="navbar-brand " href="index.html.html">GIPHY API </a>
+
+            <ul class="nav justify-content-end text-light ">
+                <li class="nav-item ">
+                    <a class="nav-link text-light " id="contactUsLink" href="#contactUsSection">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" id="aboutUsLink" href="#aboutUsSection">About Us</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light" id="faqLink" href="#faqSection">FAQ</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section id="homePage">
+        
+        <div class="container row col-lg-12 d-flex mx-auto justify-content-center align-items-center"
+            id="searchContainer">
+            <div class="col-lg-2 col-md-12 col-sm-12 m-5" id="search">
+                <h5 class="">Search GIFs</h4>
+                    <input type="search" id="searchInput" placeholder="Type Keyword here!">
+
+            </div>
+            <div class="col-lg-2 col-md-12 col-sm-12 m-5">
+                <h5 class=""># of GIFs</h4>
+                    <input type="number" id="numberGif">
+
+            </div>
+            <div class="row col-12 d-flex justify-content-center p-5">
+                <button type="button" class="btn btn-success col-6" id="getButton">Get it</button>
+            </div>
+        </div>
+        <div class="container mb-50px" id="containerGif">
+            <div class="row" id="gifRow">
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section id="faqSection">
+        
+        <div class="jumbotron my-5 mx-5">
+            <h2 class="text-center"> FAQ</h2>
+    
+        </div>
+    
+        <div class="row d-flex justify-content-around mx-5">
+    
+            <div class="card " style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">How to Find the Content You Want</h5>
+                    <p class="card-text">Find the content you are looking for by searching a term or set of terms in the search bar atop giphy.com. We automatically return results based on the relevance of the term you searched. If you don’t see what you’re looking for, add some more specific terms to the end of your search.</p>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">How to Favorite GIPHY GIFs</h5>
+                    <p class="card-text">GIPHY lets you save all the GIFs you can’t live without in one convenient place! Toss that desktop folder full of GIF files in the trash, and upgrade to using GIPHY Favorites!
+    
+                        Make sure you're signed into your GIPHY account.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">All the GIPHY Apps</h5>
+                    <p class="card-text">Check out all of GIPHY’s apps for the best ways to search, share, discover and create GIFs!</p>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Request A GIPHY API Key</h5>
+                    <p class="card-text">Interested in requesting a GIPHY API key for your app? Visit our developer portal here, click Create An App, and follow the steps to request a key. Use of a GIPHY API key alone will be subject to the API terms located here, and use of a GIPHY API key in connection with the GIPHY SDK will be governed by the GIPHY SDK License Agreement here..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutUsSection">
+        
+        <div class="jumbotron my-5 mx-5">
+            <h2 class="text-center"> About us</h2>
+    
+        </div>
+    
+        <div class="container d-flex justify-content-around mt-5 my-5" id="contactContainer">
+            <h4> We are a website for you who wants to find the best Gifs in the internet. 
+                Bringing endless fun ! </h4>
+        
+            
+        </div>
+    </section>
+    <section id="contactUsSection">
+       
+        <div class="jumbotron my-5 mx-5">
+            <h2 class="text-center"> Contact Us</h2>
+    
+        </div>
+    
+        <div class="container d-flex justify-content-around mt-5 my-5" id="contactContainer">
+            <h3>You can contact us by:</h3>
+            <ul>
+                <li>Email: contact@giphyapi.com</li>
+                <li>Phone: 555 465 0099</li>
+                <li>Instagram: @GIPHYAPI</li>
+            </ul>
+    
+            
+        </div>
+    </section>
+
+
+    <footer class="mt-auto py-3" id="footer1">
+        <div class="container text-center">
+            <span class="text-muted">Powered by: </span>
+            <img id="logofooter" class="" src="giphylogo.png" alt="">
+
+        </div>
+
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="script.js.js"></script>
+
+</html>

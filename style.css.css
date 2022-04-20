@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h5 {
+    color: white;
+}
+
+#nav1 {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+#footer1 {
+    background-color: black;
+    margin-top: 50px;
+}
+
+#searchContainer {
+    
+    margin-top: 100px;
+}
+
+img#logofooter {
+    width: 100px;
+    height: 30px;
+}
+
+
+
+#navContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.rating-circle {
+    height: 2em;
+    width: 2em;
+    border: .1em solid black;
+    border-radius: 1.1em;
+    display: inline-block;
+    margin: 0;
+    padding: .1em;
+}
+
+.rating-hover {
+    background-color: yellow;
+}
+
+.rating-chosen {
+    background-color: green;
+}
+
+.card {
+    margin-left:  25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: cadetblue;
+}
+
+.card-title {
+    color: black;
+}
+
+
+
+
+#faqSection { 
+    display: none;
+}
+
+#aboutUsSection {
+    display: none;
+}
+
+#contactUsSection {
+    display: none;
+}
+
+#contactContainer {
+    background-color: cadetblue;
+    padding:  25px;
+    
+   
+}
